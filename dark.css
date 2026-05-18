@@ -625,3 +625,30 @@ input[type="checkbox"] { accent-color: #0d0d0d !important; }
     fill: #ffffff !important;
     filter: brightness(0) invert(1) !important;
 }
+
+/* ============================================================
+   ÍCONO TELÉFONO (Llamada de voz)
+   ============================================================ */
+.hl_header button[aria-label="Llamada de voz"],
+.hl_header button.bg-success-600 {
+    background-color: #e8e8e8 !important;
+    border: 1px solid #d0d0d0 !important;
+    border-radius: 50% !important;
+    transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease !important;
+}
+.hl_header button[aria-label="Llamada de voz"] svg,
+.hl_header button.bg-success-600 svg {
+    color: #0d0d0d !important;
+    stroke: #0d0d0d !important;
+}
+.hl_header button[aria-label="Llamada de voz"]:hover,
+.hl_header button.bg-success-600:hover {
+    background-color: #0d0d0d !important;
+    border-color: #0d0d0d !important;
+    transform: translateY(-2px) !important;
+}
+.hl_header button[aria-label="Llamada de voz"]:hover svg,
+.hl_header button.bg-success-600:hover svg {
+    color: #ffffff !important;
+    stroke: #ffffff !important;
+}
